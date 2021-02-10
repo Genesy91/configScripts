@@ -29,6 +29,7 @@
         "statusBar.background": "#215c55",
         "statusBar.debuggingBorder": "#a570a3",
         "statusBar.debuggingBackground": "#634162",
+        "statusBar.noFolderBackground": "#215c55",
         "notificationCenterHeader.background": "#212529",
         "quickInput.background": "#212529",
         "focusBorder": "#17a88b",
