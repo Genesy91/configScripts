@@ -106,9 +106,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias whatsapp="whatsapp-nativefier"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #keychain
-eval $(keychain --eval --quiet id_ed25519 id_rsa ~/.keys/my_custom_key)
+eval 'keychain --eval --quiet id_rsa'
